@@ -52,6 +52,3 @@ with open("encrypted.bin", "wb") as f:
 
 print("✅ فایل ساخته شد: encrypted.bin")
 
-# ================== DOWNLOAD ==================
-from google.colab import files
-files.download("encrypted.bin")
